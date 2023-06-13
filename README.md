@@ -1,5 +1,6 @@
-## DOS-PONG //add url...
-![Splash Screen](https://raw.githubusercontent.com/SlickSpore/dos-pong/main/images/DOSPONG.png)
+
+
+## DOS-PONG //add url...![Splash Screen](https://raw.githubusercontent.com/SlickSpore/dos-pong/main/images/DOSPONG.png)
 
 DOS-PONG is an open source game hardly inspired by 1972's original **[Pong](https://en.wikipedia.org/wiki/Pong)**.
 
@@ -8,7 +9,9 @@ This Game was programmed in `C89`, with `Open Watcom`  compiler and [`Mode 13h`]
 This game **is not**, and it is not going to be, a well coded version of Pong for DOS, but it was fun Coding it :) ...soooo
 
 This version is `32 bit`, and should work fine on Pentium III... 
-I used [DOSBox](https://www.dosbox.com/) as the main DOS os..
+I used [DOSBox](https://www.dosbox.com/) as the main DOS os...
+###
+![GamePlay](https://raw.githubusercontent.com/SlickSpore/dos-pong/main/images/DosPongplay.png)
 ## Installing
 The installing process is fairly staight forward:
 
