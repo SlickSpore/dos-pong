@@ -1,3 +1,18 @@
+/*
+	DOSPONG's Score Numbers (Embedded into C code)
+
+		  Written by:
+	      
+        Ettore Caccioli
+
+		  @2023
+
+  https://slickspore.com/ || https://github.com/slickspore/dos-pong
+
+  Rev 3.0 watcom
+*/
+
+
 #define SIZEX 18
 #define SIZEY 24
 #define NSIZE 18*24

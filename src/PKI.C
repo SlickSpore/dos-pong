@@ -1,20 +1,21 @@
+/*
+	(P)ong (K)eyboard (I)nterface
+
+		  Written by:
+	      
+        SlickSpore
+
+		  @2023
+
+  https://slickspore.com/ || https://github.com/slickspore/dos-pong
+
+  Rev 3.0 watcom
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
 #include <dos.h>
-/*
-	(P)ong (K)eyboard (I)nterface
-
-		 Written by:
-	       Ettore Caccioli
-
-		   @2023
-
-https://slickspore.com/
-
-Rev beta 2.0 watcom
-*/
-
 
 int get_character();
 int check_modifier(int key);
@@ -36,18 +37,19 @@ int check_modifier(int key);
 #define ESC 1
 
 int get_character(){
-  //reading directly keyboard interface...
+  //reading directly from keyboard interface...
   return inp(0x60);
 }
+
 int check_modifier(int key){
-  union REGS r;
+  union REGS r;  //to read the regs
   
   _asm{
     mov ah,0x02
     mov al,0x00
     int 0x16
   }
-  //check for bit set...
+  //check for bit set... and return if the key was pressed
   if (r.h.ah & (1 << key)){
       return 1;
   }
