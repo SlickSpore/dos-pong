@@ -23,7 +23,7 @@ The installing process is fairly staight forward:
 ## Playing It!
 
  - To play this game, you just need to be in the folder containing
-   `dospong.exe` and you can run it by typing `dospong` on the terminal
+   `dospong.exe` and you can run it by typing `dospong` on the terminal. As this game was made in a VM, i suggest you not to trying it on real hardware, you should try it on Dosbox...
    
  Commands:
  
