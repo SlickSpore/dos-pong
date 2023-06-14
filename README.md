@@ -1,6 +1,6 @@
 
 
-## DOS-PONG //add url...![Splash Screen](https://raw.githubusercontent.com/SlickSpore/dos-pong/main/images/DOSPONG.png)
+## [DOSPONG](https://slickspore.com/dospong1.html)![Splash Screen](https://raw.githubusercontent.com/SlickSpore/dos-pong/main/images/DOSPONG.png)
 
 DOS-PONG is an open source game hardly inspired by 1972's original **[Pong](https://en.wikipedia.org/wiki/Pong)**.
 
